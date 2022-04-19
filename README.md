@@ -44,3 +44,16 @@
   
 
 ## D4: Study Design: MechaCar vs Competition
+- What metric or metrics are you going to test?
+    -  Price, fuel efficiency, maintenance cost, safety rating and user ratings
+    
+- What is the null hypothesis or alternative hypothesis?
+    - H0: There is no difference between MechaCar and competitors
+    - Ha: MechaCar performs better than it's competition
+    
+- What statistical test would you use to test the hypothesis? And why?
+    - Two-sample t-test on the following MechaCar and competitor variables: price, fuel efficiency, and maintenance costs. The means must be statistically different and greater than the competition to reject the null hypothesis.
+    - Multiple linear regression to determine if the variables of price, fuel efficiency, maintenance costs and safety ratings accounted for user ratings.
+    
+- What data is needed to run the statistical test?
+    - Price (continuous), fuel efficiency (continuous), maintenance cost (continuous), safety rating and user ratings (Categorical)

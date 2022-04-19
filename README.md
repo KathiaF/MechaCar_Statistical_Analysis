@@ -10,14 +10,15 @@
 ## D1: Linear Regression to Predict MPG
 <img src="/Resources/img1.png" width="70%" height="70%">
 
-1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-- *vehicle_length* and *ground_clearance* provided a non-random amount of variance to the MPG values according to the p value. 
+### Q&A
+- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+  - *vehicle_length* and *ground_clearance* provided a non-random amount of variance to the MPG values according to the p value. 
 
-2. Is the slope of the linear model considered to be zero? Why or why not?
-- No, the slope (*m*) of the linear model is not considered to be zero, because the p-value of this linear regression analysis (5.35x10^-11) is smaller than the assumed significance level of 0.05%, therefore, the null hypothesis (*m=0*) is rejected .
+- Is the slope of the linear model considered to be zero? Why or why not?
+  - No, the slope (*m*) of the linear model is not considered to be zero, because the p-value of this linear regression analysis (5.35x10^-11) is smaller than the assumed significance level of 0.05%, therefore, the null hypothesis (*m=0*) is rejected.
 
-3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-- Yes, It can be concluded that this linear model predict the MechaCar prototypes effectively, as can be seen from the results in the previous image, the r-squared value is 0.71, which means that 72% of the variablilty of the variable miles per gallon (mpg) is explained using this linear model
+- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+  - Yes, It can be concluded that this linear model predict the MechaCar prototypes effectively, as can be seen from the results in the previous image, the r-squared value is 0.71, which means that 72% of the variablilty of the variable miles per gallon (mpg) is explained using this linear model.
 
 ## D2: Summary Statistics on Suspension Coils
 - *total_summary* dataframe
@@ -27,6 +28,9 @@
 - *lot_summary* dataframe
 
 <img src="/Resources/img3.png" width="70%" height="70%">
+
+- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+  - In the *total_summary* dataframe, it can be seen that the variance of the three lots in total (62.3), does meet the design specification of not exceeding 100 PSI, however, the results shown in the *lot_summary* dataframe it can be seen that *lot3* exceeds the variance above the expected specifications.
 
 ## D3: T-Tests on Suspension Coils
 <img src="/Resources/img4.png" width="70%" height="70%">

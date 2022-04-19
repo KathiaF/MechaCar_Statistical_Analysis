@@ -5,6 +5,7 @@
 # Resources
 - Data Source: MechaCar_mpg.csv, Suspension_Coil.csv
 - Software: RStudio
+    - The significance level assumed for this challenge is 0.05
 
 # Analysis and Results
 ## D1: Linear Regression to Predict MPG
@@ -15,7 +16,7 @@
   - *vehicle_length* and *ground_clearance* provided a non-random amount of variance to the MPG values according to the p value. 
 
 - Is the slope of the linear model considered to be zero? Why or why not?
-  - No, the slope (*m*) of the linear model is not considered to be zero, because the p-value of this linear regression analysis (5.35x10^-11) is smaller than the assumed significance level of 0.05%, therefore, the null hypothesis (*m=0*) is rejected.
+  - No, the slope (*m*) of the linear model is not considered to be zero, because the p-value of this linear regression analysis (5.35x10^-11) is smaller than the assumed significance level of 0.05, therefore, the null hypothesis (*m=0*) is rejected.
 
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
   - Yes, It can be concluded that this linear model predict the MechaCar prototypes effectively, as can be seen from the results in the previous image, the r-squared value is 0.71, which means that 72% of the variablilty of the variable miles per gallon (mpg) is explained using this linear model.
@@ -34,7 +35,10 @@
 
 ## D3: T-Tests on Suspension Coils
 <img src="/Resources/img4.png" width="70%" height="70%">
+  - The t.test for PSIs of all manufacturing lots shows a *p-value of 0.06028*, therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the mean (average for all lots) is statistically similar.
 
 <img src="/Resources/img5.png" width="70%" height="70%">
+  - In the previous figure it is observed that the coils manufactured by Lot 1 (*p-value = 1*) and Lot 2 (*p-value =  0.6072*) were not significantly different from the population means, however, lot 3 was. This could be due to the fact that lot 3 exceeds the variance above the expected specifications. In my opinion, AutoRUs should look if there is something that causes manufacturing problems in Lot 3,
+  
 
 ## D4: Study Design: MechaCar vs Competition

@@ -24,3 +24,10 @@
 - *lot_summary* dataframe
 
 <img src="/Resources/img3.png" width="70%" height="70%">
+
+## D3: T-Tests on Suspension Coils
+<img src="/Resources/img4.png" width="70%" height="70%">
+
+<img src="/Resources/img5.png" width="70%" height="70%">
+
+## D4: Study Design: MechaCar vs Competition

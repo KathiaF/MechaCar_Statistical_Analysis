@@ -15,3 +15,12 @@
 2. Is the slope of the linear model considered to be zero? Why or why not?
 
 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
+## D2: Summary Statistics on Suspension Coils
+- *total_summary* dataframe
+
+<img src="/Resources/img2.png" width="30%" height="30%">
+
+- *lot_summary* dataframe
+
+<img src="/Resources/img3.png" width="70%" height="70%">

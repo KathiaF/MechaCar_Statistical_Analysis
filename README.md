@@ -34,11 +34,13 @@
   - In the *total_summary* dataframe, it can be seen that the variance of the three lots in total (62.3), does meet the design specification of not exceeding 100 PSI, however, the results shown in the *lot_summary* dataframe it can be seen that *lot3* exceeds the variance above the expected specifications.
 
 ## D3: T-Tests on Suspension Coils
-<img src="/Resources/img4.png" width="70%" height="70%">
-  - The t.test for PSIs of all manufacturing lots shows a *p-value of 0.06028*, therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the mean (average for all lots) is statistically similar.
+- The t.test for PSIs of all manufacturing lots shows a *p-value of 0.06028*, therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the mean (average for all lots) is statistically similar.
 
+<img src="/Resources/img4.png" width="70%" height="70%">
+
+- In the following figure it is observed that the coils manufactured by Lot 1 (*p-value = 1*) and Lot 2 (*p-value =  0.6072*) were not significantly different from the population means, however, lot 3 was. This could be due to the fact that lot 3 exceeds the variance above the expected specifications. In my opinion, AutoRUs should look if there is something that causes manufacturing problems in Lot 3.
 <img src="/Resources/img5.png" width="70%" height="70%">
-  - In the previous figure it is observed that the coils manufactured by Lot 1 (*p-value = 1*) and Lot 2 (*p-value =  0.6072*) were not significantly different from the population means, however, lot 3 was. This could be due to the fact that lot 3 exceeds the variance above the expected specifications. In my opinion, AutoRUs should look if there is something that causes manufacturing problems in Lot 3,
+
   
 
 ## D4: Study Design: MechaCar vs Competition
